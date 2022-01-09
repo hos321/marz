@@ -7,11 +7,14 @@ html {
 input {
   outline: none;
 }
+.block{
+  display: block !important;
+}
 /* start header */
 .header {
   background-image: url(../images/slide-background.png);
   background-size: cover;
-  height: 100vh;
+  min-height: calc(100vh - 100px);
 }
 .navbar {
   background-color: white !important;
@@ -842,4 +845,8 @@ input {
         45deg, transparent, #00cdac);
             padding: 30px;
     }
+  }
+
+  .block{
+    display: block !important;
   }
